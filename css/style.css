@@ -1,0 +1,219 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-primary: "Poppins", Sans-serif;
+
+    --clr-primary:#00101d;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.white{
+    color: white;
+}
+
+.red{
+    color: #ff0a00;
+}
+
+.dark-red{
+    color: #961e2e;
+}
+
+.bg-red{
+    background-color: #ff0a00;
+}
+
+.section-header{
+    font-weight: 700;
+    font-family: var(--ff-primary);
+}
+
+.section-header-light{
+    font-weight: 600;
+    font-family: var(--ff-primary);
+}
+
+.section-subheader{
+    font-weight: 400;
+    font-family: var(--ff-primary);
+}
+
+.section-subheader-light{
+    font-weight: 200;
+    font-family: var(--ff-primary);
+}
+
+.fs_header{
+    font-size: 50px;
+}
+
+.fs_subheader{
+    font-size: 33px;
+}
+
+.fs_title{
+    font-size: 20px;
+}
+
+.fs_content{
+    font-size: 18px;
+}
+
+.section-divider{
+    background-color:var(--clr-primary);
+    height: 40px;
+}
+
+.landing{
+    background-image: url('https://dragonboat.cysm.org/wp-content/uploads/2020/10/19143187_10155496792023217_1838593089204699983_o.jpg');
+    background-position: left top;
+}
+
+nav{
+    padding: 2rem;
+}
+
+.navigation-bar{
+    float: right;
+}
+
+nav > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li{
+    display: inline;
+    padding: 1rem;
+}
+
+nav > ul > li > a:hover
+{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 3px;
+    border-bottom: solid red;
+}
+
+.active{
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: red;
+}
+
+.landing_club_icon{
+    height:100%;
+}
+
+.landing_content_motto{
+    font-size: 55px;
+}
+
+.briefing,
+.blue-background{
+    background: var(--clr-primary);
+    font-family: var(--ff-primary);
+}
+
+.collaspible{
+    background-color: transparent !important;
+    border:none !important;
+    outline: none !important;
+}
+
+.collaspible:focus{
+    background-color: transparent !important;
+    border:none !important;
+    outline:none !important;
+}
+
+.collaspible:hover{
+    background-color: transparent !important;
+    border:none !important;
+    outline:none !important;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.the-dragon-boat-content-collapse,
+.dragon-boat-technique-content-collapse,
+.safety-content-collapse{
+    background-color: var(--clr-primary);
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    
+}
+
+hr{
+    background-color: white;
+
+}
+
+.video-iframe{
+    max-width: 100%;
+    width: 100%;
+    height:250px;
+    margin: 0;
+    line-height: 1;
+    border: none;
+}
+
+.collaspible-content-bg{
+    background-position: center center;
+    background-size: cover;
+    min-height: 330px;
+}
+
+.the-dragon-boat-content{
+    background-image: url("https://dragonboat.cysm.org/wp-content/uploads/2020/10/akshay-chauhan-RBvwfQ8jw7E-unsplash-scaled.jpg");
+
+}
+
+.dragon-boat-technique-content{
+    background-image: url("https://dragonboat.cysm.org/wp-content/uploads/2020/10/89355646_10158086177479872_2791500353219067904_o.jpg");
+}
+
+.safety-content{
+    background-image: url("https://dragonboat.cysm.org/wp-content/uploads/2020/10/Safety.jpg");
+}
+
+footer{
+    background-color: #54595f;
+}
+
+.footer_club_icon{
+    height:300px;
+}
+
+.contact{
+    color: white;
+}
+
+.social-media,
+.social-media:hover,
+.social-media:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+.contact:hover{
+    color: #d3a35f;
+    text-decoration: none;
+}
+
